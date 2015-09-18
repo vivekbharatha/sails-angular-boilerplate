@@ -9,6 +9,10 @@ body {
   padding: 0;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -79,5 +83,8 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+  .jumbotron h1 {
+    font-size: 50px;
   }
 }

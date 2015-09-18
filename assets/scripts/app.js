@@ -15,12 +15,20 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ngMaterial'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/home.html',
         controller: 'HomeController'
+      })
+      .when('/route1', {
+        templateUrl: 'views/route1.html',
+        controller: 'NavController'
+      })
+      .otherwise({
+        redirectTo: '/'
       });
   });
