@@ -9,3 +9,9 @@ Building.....
 * npm install
 * bower install
 * sails lift
+
+		|\
+		| \
+ _______)  (________
+( 	    Sails 		)
+ \_________________/
