@@ -88,3 +88,8 @@ h1 {
     font-size: 50px;
   }
 }
+
+.bg-transparent {
+  background: transparent;
+  color: #fff;
+}

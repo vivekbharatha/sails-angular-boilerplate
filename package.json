@@ -1,5 +1,5 @@
 {
-  "name": "instots",
+  "name": "yourApp",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -33,6 +33,6 @@
     "type": "git",
     "url": "git://github.com/v3xvard/instots.git"
   },
-  "author": "v3xvard",
-  "license": ""
+  "author": "Vivek Bharatha",
+  "license": "MIT"
 }
